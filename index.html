@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Title</title>
@@ -9,15 +10,41 @@
 <body>
 <div class="container-fluid mt-3" id="main">
 <div class="row" id="title">
-    <div class="col-12 text-center">
-       <h1>About me</h1>
+    <div class="col-12 text-center mt-3">
+       <span id="logo">Curriculum Vitae</span>
     </div>
-    <div class="card ml-3 mt-3 mb-3" id="photo_card">
-        <div class="card-head" style="overflow: hidden">
-        <img class="card-img-top" src="me_and_my_daughter.jpg" alt="my photo" >
+    <div class="card ml-3 mt-5 mb-3 " id="photo_card">
+        <div class="card-head" style="overflow: hidden;border-bottom: black 2px solid" >
+        <img class="card-img-top" src="me_and_my_daughter.jpg" alt="my photo">
         </div>
-        <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="card-body" id="contacts" style="background-color: #b2dede">
+            <span class="  mt-2" ><i class="fa fa-mobile-alt fa-2x ml-1 mr-1 mt-3" style="color: crimson" ></i>+375-29-831-26-25</span>
+            <span class="  mt-2"><i class="fab fa-viber fa-2x ml-1 mr-1" style="color: blueviolet" ></i>+375-29-831-26-25</span><br><br>
+            <span class="  mt-2"><i class="fa fa-envelope fa-2x ml-1 mr-2 mt-3" style="color: white" ></i>Kvinto1986@gmail.com</span>
+            <span class="  mt-2 ml-2"><i class="fab fa-skype fa-2x ml-1 mr-2" style="color: cornflowerblue" ></i>Kvinto44</span><br><br>
+            <span class="  mt-2 ml-5"><a class="fab fa-github-alt fa-3x ml-4 mt-3 " href="https://github.com/Kvinto1986" target="_blank" style="color: black; text-decoration: none" ></a></span>
+            <span class="  mt-2 ml-5"><a class="fab fa-vk fa-3x ml-5 mr-2" href="https://vk.com/id24167201" target="_blank" style="color: dodgerblue; text-decoration: none" ></a></span><br><br>
+        </div>
+    </div>
+    <div class="jumbotron ml-4 mt-5 mb-3" id="info">
+        <div class="container">
+            <h2 style="text-align: center">About me</h2>
+            <p class="lead" style="font-style: italic; font-weight: initial">Hello, my name is Yan Polyn. I’m  31, married and have got a little daughter. I live in Gomel.
+                More than a year ago I decided to change the job and take up the
+                sphere  I’d like to stick to for the rest of my life. So, I took a
+                course in programming  in <a href="https://itstep.by/" target="_blank" style="text-decoration: none">“STEP” IT Academy.</a>
+                Before that I had been working for companies not relating to IT.
+                Now, having learnt a lot, I’d want to move on and become a
+                developer while continuing  to upgrade my skills.
+            </p><br>
+            <h2 style="text-align: center">What is my goal</h2>
+            <p class="lead" style="font-style: italic; font-weight: initial">I’d like to start a career as a Web-developer, get more of a challenge and continue working in IT sphere.
+            </p><br>
+            <h2 style="text-align: center">My merits</h2>
+            <p class="lead" style="font-style: italic; font-weight: initial">At my previous positions including army service I’d always been considered by high rank officials as a responsible,  efficient  and qualified employee. I’m a good team member, learn quickly,
+                constantly improving my skills and knowledgeand,
+                possess  leader’s qualities.
+            </p>
         </div>
     </div>
 </div>
