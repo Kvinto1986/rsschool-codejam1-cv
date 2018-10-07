@@ -62,3 +62,7 @@
     -webkit-transition: all 1s ease-out;
 
 }
+#lang_list img{
+    height: 90px;
+    width: 90px;
+}
