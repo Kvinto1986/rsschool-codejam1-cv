@@ -2,6 +2,9 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
@@ -23,8 +26,8 @@
             <span class="  mt-2"><i class="fab fa-viber fa-2x ml-1 mr-1" style="color: blueviolet" ></i>+375-29-831-26-25</span><br><br>
             <span class="  mt-2"><i class="fa fa-envelope fa-2x ml-1 mr-2 mt-3" style="color: white" ></i>Kvinto1986@gmail.com</span>
             <span class="  mt-2 ml-2"><i class="fab fa-skype fa-2x ml-1 mr-2" style="color: cornflowerblue" ></i>Kvinto44</span><br><br>
-            <span class="  mt-2 ml-5"><a class="fab fa-github-alt fa-3x ml-4 mt-3 " href="https://github.com/Kvinto1986" target="_blank" style="color: black; text-decoration: none" ></a></span>
-            <span class="  mt-2 ml-5"><a class="fab fa-vk fa-3x ml-5 mr-2" href="https://vk.com/id24167201" target="_blank" style="color: dodgerblue; text-decoration: none" ></a></span><br><br>
+            <span class="  mt-2 ml-5"><a class="fab fa-github-alt fa-3x ml-4 mt-3 " href="https://github.com/Kvinto1986" target="_blank" data-toggle="tooltip" data-placement="top" title="My GitHub profile" style="color: black; text-decoration: none" ></a></span>
+            <span class="  mt-2 ml-5"><a class="fab fa-vk fa-3x ml-5 mr-2" href="https://vk.com/id24167201" target="_blank" data-toggle="tooltip" data-placement="top" title="My VK profile" style="color: dodgerblue; text-decoration: none" ></a></span><br><br>
         </div>
     </div>
     <div class="jumbotron ml-4 mt-5 mb-5" id="info">
@@ -60,10 +63,36 @@
             <li class="list-inline-item"><img src="resources/git-logo.png" alt="git logo"></li>
         </ul><br>
     </div>
-
+    <div class="col-12" style="text-align: center">
+        <h2 >My projects and сompleted tasks</h2><br>
+    <a class="btn btn-success  mb-3"  role="button" aria-expanded="false" href="https://github.com/Kvinto1986?tab=repositories" target="_blank" style="color: black" >
+        <i class="fab fa-github-alt fa-1x mr-2"  ></i>All my JS algorithms tasks</a>
+    <a class="btn btn-success ml-3 mb-3"  role="button" aria-expanded="false" href="https://github.com/Kvinto1986/warmup" target="_blank" style="color: black">
+        <i class="fab fa-github-alt fa-1x mr-2"  ></i>Web site project(JS,PHP,MySQL)</a>
+    <p>
+        <button class="btn btn-info " data-toggle="collapse" href="#about" role="button" aria-expanded="false" aria-controls="collapseExample" style="color: black" >
+            More about the web site project
+        </button>
+    </p>
+    <div class="collapse" id="about">
+        <div class="card card-body" style="background-color: gainsboro; text-align: left">
+            How can the site be used by users?
+            Registration on the site, authorization, booking of tours,
+            after registration and logging on one can book a tour (either individual or a group up to 20, leave feed backs, look through,  change personal data, dates of tours or do the cancellations in user area.
+            What can the tour admin do?
+            Add new tours which is being done in simple and understandable interface  by filling out the necessary  photo/video information about the  tour itself, the schedule, the hotel confirmation, date of departure and the price. Also there is a page of the administrator, where the admin can do editing the information about tourists (confirmation/cancellation of booking, adding/deleting of photos in the photo gallery).Media  blogs are being reflected and put into the data base.
+            There’s  a facility to check all the downloaded data. The site is also adapted for  mobile devices. This site has not  appeared on the Internet yet.
+            Of course, the code has a lot of disadvantages inherent in novice programmers, but everything works. At the end of the work on the project, I was already afraid to change anything, following the rule of programmers "work-do not touch") The project was launched locally, the database is in the repository. Connect to it in the code of the db.php file.
+        </div>
+    </div>
+    </div>
+    <div class="jumbotron  mt-3" style="background-color: gainsboro">
+        <h2 style="text-align: center">Education and experience</h2><br>
+        <p class="ml-3" style="font-size: 20px">Studied in Belarus State  University for  Transport from 2004 to 2009 at the faculty of road and airfield building. Got a college degree in the field of electrical and gas welding in 2008-2009. Worked  at OAO Gomselmash in 2009 -2010 and 2012-2016. Served in the army in 2010-2012. Studied in “STEP” IT Academy from 2016 till 2018.
+        </p>
     </div>
 </div>
+</div>
 
-    </div>
 </body>
 </html>
