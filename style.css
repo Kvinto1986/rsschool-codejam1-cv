@@ -1,8 +1,23 @@
-p{
+p {
     font-style: italic;
     font-weight: initial;
+    font-size: 20px;
 }
-#logo{
+
+div {
+    text-align: center;
+}
+
+#main {
+    font-family: Georgia;
+    max-width: 1024px;
+    background-color: gainsboro;
+    border: darkgreen 3px solid;
+    border-radius: 10px;
+    color: black;
+}
+
+#logo {
 
     text-align: center;
     font-size: 70px;
@@ -11,62 +26,70 @@ p{
     0 3px 0 #bbb,
     0 4px 0 #b9b9b9,
     0 5px 0 #aaa,
-    0 6px 1px rgba(0,0,0,.1),
-    0 0 5px rgba(0,0,0,.1),
-    0 1px 3px rgba(0,0,0,.3),
-    0 3px 5px rgba(0,0,0,.2),
-    0 5px 10px rgba(0,0,0,.25),
-    0 10px 10px rgba(0,0,0,.2),
-    0 20px 20px rgba(0,0,0,.15);
+    0 6px 1px rgba(0, 0, 0, .1),
+    0 0 5px rgba(0, 0, 0, .1),
+    0 1px 3px rgba(0, 0, 0, .3),
+    0 3px 5px rgba(0, 0, 0, .2),
+    0 5px 10px rgba(0, 0, 0, .25),
+    0 10px 10px rgba(0, 0, 0, .2),
+    0 20px 20px rgba(0, 0, 0, .15);
 }
 
-
-#main{
-    font-family:Georgia;
-    max-width: 1024px;
-    background-color: gainsboro;
-    border: darkgreen 3px solid;
-    border-radius: 10px;
-}
-#photo_card{
+#photo_card {
     width: 25rem;
-    -webkit-box-shadow: 9px 9px 25px -2px rgba(0,0,0,0.74);
-    -moz-box-shadow: 9px 9px 25px -2px rgba(0,0,0,0.74);
-    box-shadow: 9px 9px 25px -2px rgba(0,0,0,0.74);
+    -webkit-box-shadow: 9px 9px 25px -2px rgba(0, 0, 0, 0.74);
+    -moz-box-shadow: 9px 9px 25px -2px rgba(0, 0, 0, 0.74);
+    box-shadow: 9px 9px 25px -2px rgba(0, 0, 0, 0.74);
 }
-#photo_card img:hover{
+
+#photo_card img:hover {
     -webkit-transform: scale(1.4);
     -moz-transform: scale(1.4);
     -o-transform: scale(1.4);
 }
-#photo_card img{
+
+#photo_card img {
 
     -moz-transition: all 2s ease-out;
     -o-transition: all 2s ease-out;
     -webkit-transition: all 2s ease-out;
 
 }
-#info{
+
+#photo_card div {
+    overflow: hidden;
+    background-color: gainsboro;
+}
+
+#info {
 
     width: 32rem;
     background-color: gainsboro;
 }
-#contacts{
+
+#contacts {
     font-size: 16px;
 }
-#contacts a:hover{
-     -webkit-transform: scale(1.5);
-     -moz-transform: scale(1.5);
-     -o-transform: scale(1.5);
- }
-#contacts a{
+
+#contacts a:hover {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+
+#contacts a {
 
     -moz-transition: all 1s ease-out;
     -o-transition: all 1s ease-out;
     -webkit-transition: all 1s ease-out;
 
 }
-#lang_list img{
+
+#lang_list img {
     height: 90px;
     width: 90px;
+}
+
+#modal_window div {
+    background-color: white;
 }
