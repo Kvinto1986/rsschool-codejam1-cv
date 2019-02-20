@@ -9,7 +9,7 @@ div {
 }
 
 #main {
-    font-family: Georgia;
+        font-family: Georgia;
     max-width: 1024px;
     background-color: gainsboro;
     border: darkgreen 3px solid;
@@ -37,6 +37,7 @@ div {
 
 #photo-card {
     width: 25rem;
+    height: 35rem;
     -webkit-box-shadow: 9px 9px 25px -2px rgba(0, 0, 0, 0.74);
     -moz-box-shadow: 9px 9px 25px -2px rgba(0, 0, 0, 0.74);
     box-shadow: 9px 9px 25px -2px rgba(0, 0, 0, 0.74);
